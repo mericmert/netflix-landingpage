@@ -1,0 +1,117 @@
+.hero{
+    position: relative;
+    width: 100%;
+    height: 50vw;
+}
+
+.hero-container{
+    position: absolute;
+    top: 3vw;
+    left: 1vw;
+    width: 40vw;
+    color: white;
+    padding: 1em;
+}
+
+.title-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-container h2{
+    margin: 0;
+}
+
+#first-title{
+    text-align: center;
+    letter-spacing: 16px;
+    font-size: 1.5vw;
+    font-family:'Lucida Sans';  
+    font-weight:100;
+    color: rgb(231, 231, 231);    
+}
+
+#second-title{
+    font-size: 5vw;
+    letter-spacing: 14px;
+}
+
+#third-title{
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Lucida Sans';
+    letter-spacing: 5px;
+}
+
+.title-container h1 {
+    margin: 0;
+
+}
+
+.top-title{
+    width: 100%;
+    margin-top: 1.25em;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    column-gap: 1em;
+    font-size: 1.1vw;
+}
+
+.top-ten-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(219, 5, 5);
+    width: 2.5vw;
+    height: 2.5vw;
+    text-align: center;
+    font-size: .85em;
+    font-weight: 900;
+    border-radius: 3px;
+}
+
+.title-desc p{
+    margin: 0;
+    font-size: 1vw;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+    column-gap: .5em;
+}
+
+.buttons button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: .2em;
+    height: 3vw;
+    font-size: 2vw;
+    border-radius: 4px;
+    outline: none;
+    border: 0;
+}
+
+.buttons button span{
+    font-size: 1.25vw;
+    font-weight: 600;
+}
+
+.buttons button:nth-child(2){
+    background: rgba(85, 85, 85, 0.5);
+    color: white;
+}
+
+.buttons button:nth-child(1){
+    width: 9vw;
+}
+
+.buttons button:nth-child(2){
+    width: 15vw;
+}
